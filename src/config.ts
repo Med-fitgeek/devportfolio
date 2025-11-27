@@ -61,9 +61,10 @@ export const siteConfig = {
       title: "Stagiaire Ingénieur Logiciel",
       dateRange: "Jan 2025 - Aout 2025",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Développement d’une API interne d’automatisation en .NET (Façade Pattern) pour 5 outils industriels utilisés dans +30 pays",
+        "Réduction des cycles QA de 80% via standardisation des scénarios et automatisation complète.",
+        "Refactor de modules critiques + documentation des simulateurs et librairies internes.",
+        "Mise en place d’une pipeline CI/CD Azure DevOps exécutant les tests en continu, améliorant fiabilité et régularité des livrables"
       ],
     },
     {
@@ -71,9 +72,9 @@ export const siteConfig = {
       title: "Stagiaire Ingénieur FullStack ",
       dateRange: "Avr 2024 - Aout 2024",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
+        "Développement de fonctionnalités backend/frontend pour une plateforme nationale de santé publique",
+        "Conception d’un système de stockage hiérarchisé pour multimédia, améliorant traçabilité et accessibilité",
+        "Participation à l’analyse, au développement et au suivi agile en environnement production",
       ],
     },
   ],
