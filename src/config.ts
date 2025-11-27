@@ -1,45 +1,65 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Ndongo Medoune Ndiaye",
+  title: "Ingénieur Backend",
+  description: "Portfolio de Ndongo",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "ndongomedoune.ndiaye@gmail.com",
+    linkedin: "https://linkedin.com/in/nmndiaye",
+    twitter: "https://x.com/",
+    github: "https://github.com/Med-fitgeek",
   },
-  aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+  aboutMe: "Je suis Ndongo, passionné de technologie et d’architecture logicielle, spécialisé dans le backend, les microservices et les systèmes distribués. J’aime créer des solutions performantes, maintenables et qui ont un vrai impact concret. Curieux et structuré, je jongle entre vision globale et détails techniques, tout en explorant de nouvelles technologies pour transformer des idées complexes en solutions simples.",
+  skills: ["C#", ".NET", "Entity Frameworks", "Linq","Microservices", "Azure Devops", "Docker", "Kubernetes"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Plateforme bancaire distribuée",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Projet perso où je construis une vraie archi bancaire moderne basée sur des microservices. L’écosystème tourne en .NET 8, RabbitMQ pour la comm’ async (events + retries + DLX), un API Gateway pour centraliser les entrées, et une stack full Docker / Docker Compose pour tout orchestrer proprement.",
+      link: "https://github.com/Med-fitgeek/DineroBank",
+      skills: ["C#", ".NET", "RabbitMQ", "Linq", "Docker", "Kubernetes"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Messagerie instantanée en temps réel",
       description:
         "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      link: "https://github.com/Med-fitgeek/HelloFriends-Messagerie-Instantanee",
+      skills: ["C#", ".NET", "Angular", "SignalR", "SQL Server"],
     },
     {
-      name: "ExtensionKit",
+      name: "Plateforme de vote en ligne",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Développé une application web de vote en ligne sécurisée, avec authentification centralisée via Keycloak (OAuth2, JWT) et gestion fine des rôles utilisateurs.",
+      link: "https://github.com/Med-fitgeek/online-voting-app",
+      skills: ["Java", "Spring Boot", "Angular", "PostgreSQL"],
+    },
+    {
+      name: "Application Cloud de Gestion de Tâches Collaboratives",
+      description:
+        "Conception et développement d’une application web complète permettant la création, l’attribution et le suivi des tâches en équipe, avec gestion des statuts, commentaires et notifications temps réel.",
+      link: "https://github.com/Med-fitgeek/planify",
+      skills: ["C#", ".NET", "JWT", "Linq", "Azure Devops", "SQL Server"],
+    },
+    {
+      name: "Interpréteur de langage",
+      description:
+        "Interpréteur complet pour un langage imaginé sur mesure, avec parseur modulaire et couverture de tests à 100 %, assurant stabilité et évolutivité.",
+      link: "https://github.com/Med-fitgeek/My_language_compilator",
+      skills: ["Java", ".ANTLR", "Analyse Lexical", "Parsing"],
+    },
+    {
+      name: "Application de quiz",
+      description:
+        "Jai co-développé une application de quiz sécurisée avec gestion des rôles, API REST (Flask) et interface web (Vue.js). Avec mes collegues nous avons mené l'ensemble du projet en approche Test-Driven Development avec une couverture de tests exhaustive, assurant robustesse et maintenabilité.",
+      link: "https://github.com/Med-fitgeek/formula1-quiz-app",
+      skills: ["Python", "Flask", "Vue.js", "Docker", "Test Driven Development"],
     },
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "SLB",
+      title: "Stagiaire Ingénieur Logiciel",
+      dateRange: "Jan 2025 - Aout 2025",
       bullets: [
         "Led development of microservices architecture serving 1M+ users",
         "Reduced API response times by 40% through optimization",
@@ -47,45 +67,32 @@ export const siteConfig = {
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "Gainde 2000",
+      title: "Stagiaire Ingénieur FullStack ",
+      dateRange: "Avr 2024 - Aout 2024",
       bullets: [
         "Built and launched MVP product from scratch using React and Node.js",
         "Implemented CI/CD pipeline reducing deployment time by 60%",
         "Collaborated with product team to define technical requirements",
       ],
     },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
-    },
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "ESIEE Paris",
+      degree: "Diplome d'ingénieur informatique",
+      dateRange: "2021 - 2025",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "Spécialisation : Génie logiciel et systèmes d’information",
+        
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "Excellence Universitaire Africaine",
+      degree: "Classes préparatoires MPSI",
+      dateRange: "2019 - 2025",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Deux années de préparations aux concours d'entrée des grandes coles",
       ],
     },
   ],
