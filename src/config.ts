@@ -16,35 +16,35 @@ export const siteConfig = {
       name: "Plateforme de vote en ligne",
       description:
         "Développé une application web de vote en ligne sécurisée, avec authentification centralisée via Keycloak (OAuth2, JWT) et gestion fine des rôles utilisateurs.",
-      link: "https://github.com/Med-fitgeek/online-voting-app",
+      link: "https://github.com/Med-fitgeek/springboot-secure-voting-app",
       skills: ["Java", "Spring Boot", "Angular", "PostgreSQL", "Jenkins", "Github Actions"],
     },
     {
       name: "Interpréteur de langage",
       description:
         "Interpréteur complet pour un langage imaginé sur mesure, avec parseur modulaire et couverture de tests à 100 %, assurant stabilité et évolutivité.",
-      link: "https://github.com/Med-fitgeek/My_language_compilator",
+      link: "https://github.com/Med-fitgeek/Java-antlr-interpretor",
       skills: ["Java", "ANTLR", "Analyse Lexical", "Parsing"],
     },
     {
       name: "Plateforme bancaire distribuée",
       description:
         "Projet perso où je construis une vraie archi bancaire moderne basée sur des microservices. L’écosystème tourne en .NET 8, RabbitMQ pour la comm’ async (events + retries + DLX), un API Gateway pour centraliser les entrées, et une stack full Docker / Docker Compose pour tout orchestrer proprement.",
-      link: "https://github.com/Med-fitgeek/DineroBank",
+      link: "https://github.com/Med-fitgeek/dotnet-microservices-banking-app",
       skills: ["C#", ".NET", "RabbitMQ", "Linq", "Docker", "Kubernetes"],
     },
     {
       name: "Messagerie instantanée en temps réel",
       description:
         "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://github.com/Med-fitgeek/HelloFriends-Messagerie-Instantanee",
+      link: "https://github.com/Med-fitgeek/dotnet-angular-realtime-chat",
       skills: ["C#", ".NET", "Angular", "SignalR", "SQL Server"],
     },
     {
       name: "Application de quiz",
       description:
         "Jai co-développé une application de quiz sécurisée avec gestion des rôles, API REST (Flask) et interface web (Vue.js). Avec mes collegues nous avons mené l'ensemble du projet en approche Test-Driven Development avec une couverture de tests exhaustive, assurant robustesse et maintenabilité.",
-      link: "https://github.com/Med-fitgeek/formula1-quiz-app",
+      link: "https://github.com/Med-fitgeek/flask-vuejs-quiz-app",
       skills: ["Python", "Flask", "Vue.js", "Docker", "Test Driven Development"],
     },
   ],
