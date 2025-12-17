@@ -10,8 +10,22 @@ export const siteConfig = {
     github: "https://github.com/Med-fitgeek",
   },
   aboutMe: "Je suis Ndongo, passionné de technologie et d’architecture logicielle, spécialisé dans le backend, les microservices et les systèmes distribués. J’aime créer des solutions performantes, maintenables et qui ont un vrai impact concret. Curieux et structuré, je jongle entre vision globale et détails techniques, tout en explorant de nouvelles technologies pour transformer des idées complexes en solutions simples.",
-  skills: ["C#", ".NET", "Entity Frameworks", "Linq","Microservices", "Azure Devops", "Docker", "Kubernetes"],
+  skills: ["Java#", "Spring Boot", "J2EE", "JPA", "Hibernate","Microservices", "Docker", "Jenkins", "Redis"],
   projects: [
+    {
+      name: "Plateforme de vote en ligne",
+      description:
+        "Développé une application web de vote en ligne sécurisée, avec authentification centralisée via Keycloak (OAuth2, JWT) et gestion fine des rôles utilisateurs.",
+      link: "https://github.com/Med-fitgeek/online-voting-app",
+      skills: ["Java", "Spring Boot", "Angular", "PostgreSQL", "Jenkins", "Github Actions"],
+    },
+    {
+      name: "Interpréteur de langage",
+      description:
+        "Interpréteur complet pour un langage imaginé sur mesure, avec parseur modulaire et couverture de tests à 100 %, assurant stabilité et évolutivité.",
+      link: "https://github.com/Med-fitgeek/My_language_compilator",
+      skills: ["Java", "ANTLR", "Analyse Lexical", "Parsing"],
+    },
     {
       name: "Plateforme bancaire distribuée",
       description:
@@ -27,27 +41,6 @@ export const siteConfig = {
       skills: ["C#", ".NET", "Angular", "SignalR", "SQL Server"],
     },
     {
-      name: "Plateforme de vote en ligne",
-      description:
-        "Développé une application web de vote en ligne sécurisée, avec authentification centralisée via Keycloak (OAuth2, JWT) et gestion fine des rôles utilisateurs.",
-      link: "https://github.com/Med-fitgeek/online-voting-app",
-      skills: ["Java", "Spring Boot", "Angular", "PostgreSQL"],
-    },
-    {
-      name: "Application Cloud de Gestion de Tâches Collaboratives",
-      description:
-        "Conception et développement d’une application web complète permettant la création, l’attribution et le suivi des tâches en équipe, avec gestion des statuts, commentaires et notifications temps réel.",
-      link: "https://github.com/Med-fitgeek/planify",
-      skills: ["C#", ".NET", "JWT", "Linq", "Azure Devops", "SQL Server"],
-    },
-    {
-      name: "Interpréteur de langage",
-      description:
-        "Interpréteur complet pour un langage imaginé sur mesure, avec parseur modulaire et couverture de tests à 100 %, assurant stabilité et évolutivité.",
-      link: "https://github.com/Med-fitgeek/My_language_compilator",
-      skills: ["Java", ".ANTLR", "Analyse Lexical", "Parsing"],
-    },
-    {
       name: "Application de quiz",
       description:
         "Jai co-développé une application de quiz sécurisée avec gestion des rôles, API REST (Flask) et interface web (Vue.js). Avec mes collegues nous avons mené l'ensemble du projet en approche Test-Driven Development avec une couverture de tests exhaustive, assurant robustesse et maintenabilité.",
@@ -61,7 +54,7 @@ export const siteConfig = {
       title: "Stagiaire Ingénieur Logiciel",
       dateRange: "Jan 2025 - Aout 2025",
       bullets: [
-        "Développement d’une API interne d’automatisation en .NET (Façade Pattern) pour 5 outils industriels utilisés dans +30 pays",
+        "Développement d’une API interne d’automatisation en .NET (Façade Pattern) pour 5 outils industriels utilisés dans +40 pays",
         "Réduction des cycles QA de 80% via standardisation des scénarios et automatisation complète.",
         "Refactor de modules critiques + documentation des simulateurs et librairies internes.",
         "Mise en place d’une pipeline CI/CD Azure DevOps exécutant les tests en continu, améliorant fiabilité et régularité des livrables"
@@ -72,9 +65,10 @@ export const siteConfig = {
       title: "Stagiaire Ingénieur FullStack ",
       dateRange: "Avr 2024 - Aout 2024",
       bullets: [
-        "Développement de fonctionnalités backend/frontend pour une plateforme nationale de santé publique",
-        "Conception d’un système de stockage hiérarchisé pour multimédia, améliorant traçabilité et accessibilité",
-        "Participation à l’analyse, au développement et au suivi agile en environnement production",
+        "Développement fullstack pour une plateforme de santé publique nationale (50k+ utilisateurs).",
+        "Conception d’un système de stockage multimédia hiérarchisé → -40 % temps d’accès.",
+        "Instrumentation monitoring avec Prometheus/Grafana.",
+        "Collaboration en Scrum avec l’équipe produit et devs seniors."
       ],
     },
   ],
